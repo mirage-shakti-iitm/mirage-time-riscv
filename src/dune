@@ -2,4 +2,5 @@
  (name mirage_time)
  (public_name mirage-time)
  (libraries lwt)
- (wrapped false))
+ (wrapped false)
+ (ocamlopt_flags (-default-compartment-id 1 -function-sections)))
