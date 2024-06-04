@@ -3,4 +3,4 @@
  (public_name mirage-time)
  (libraries lwt)
  (wrapped false)
- (ocamlopt_flags (-default-compartment-id 56 -function-sections)))
+ (ocamlopt_flags (-default-compartment-id 35 -function-sections)))
